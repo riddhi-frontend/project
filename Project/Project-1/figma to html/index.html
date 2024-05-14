@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>figma to html convert</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css\style.css'>
+    <!-- bootstrp css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+<!-- navbar starts hear -->
+    <nav class="nav nav-navbar">
+        <div class="col-md-5">
+            <h2 class="text-center">unwind<span>cabins</span></h2>
+        </div>
+        <div class="col-md-6 d-flex">
+            <ul class="p-1 m-1">
+                <li class="ms-4"><a href="#">Our cabins</a></li>
+                <li class="ms-4"><a href="#">Get inspired</a></li>
+                <li class="ms-4"><a href="#">Gift a stay</a></li>
+                <li class="ms-4"><a href="#">About us</a></li>
+            </ul>
+            <button class="ms-3 mt-1 mb-1" style="width: 45px; background-color: lightcyan; border-radius: 50%; border: 1px solid black; "><i class="bi bi-person-circle fs-4"></i></button>
+        </div>
+    </nav>
+
+<!-- header starts hear -->
+<header>
+    <div class="container-fulid">
+        <div class="col-md-12" style="z-index: 5; position: relative;">
+            <div class="row">
+                <div class="col-md-5 mt-5">
+                    <div>
+                        <h1 class="h3 p-3 ms-5 mt-5 me-5 fs-3 text-white">Leave the office behind and<span style="color: #F4BD4F;">unwind</span></h1>
+                        <p class="p-3 ms-5 me-5 text-white">Welcome to our cozy cabin nestled in the heart of the mountains! Our cabin is the perfect getaway for those seeking peace and relaxation in a natural setting.</p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/profile-1.png" style="margin-left: 25%;">
+                            <img src="images/profile-2.png" style="margin-left: -12%;">
+                            <img src="images/profile-3.png" style="margin-left: -12%;">
+                            <img src="images/profile-4.png" style="margin-left: -12%;">
+                            <img src="images/profile-5.png" style="margin-left: -12%;">
+                        </div>
+
+                        <div class="col-md-7">
+                            <p class="mt-3">
+                                <span><i class="bi bi-star-fill p-1" style="color: #1BB580;"></i><span class="text-white me-2">Trustpoint</span>
+                                <i class="bi bi-star-fill p-1 text-white" style="background-color: #1BB580;"></i>
+                                <i class="bi bi-star-fill p-1 text-white" style="background-color: #1BB580;"></i>
+                                <i class="bi bi-star-fill p-1 text-white" style="background-color: #1BB580;"></i>
+                                <i class="bi bi-star-fill p-1 text-white" style="background-color: #1BB580;"></i>
+                                <i class="bi bi-star-fill p-1 text-white" style="background-color: #1BB580;"></i>
+                                <span class="ms-1 text-white">4.5/5</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6" style="width: 58%;">
+                    <img src="images/header-1.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- content starts hear -->
+    <!-- search bar starts hear -->
+    <div class="searchbar">
+        <div class="search">
+            <div class="row">
+                <div class="col-md-9 d-flex" >
+                    <div class="input-group mt-3 d-flex w-75 border border-1 ms-3" style="background-color: lightgray;">
+                        <span class="input-group-text border border-0" style="background-color: lightgray;"><i class="bi bi-map"></i></span>
+                        <input type="text" name="fname" placeholder="I want to go" style="background-color: lightgray;" class="form-control  border border-0" *required/>
+                    </div>
+                    <div class="input-group mt-3 d-flex w-50 ms-2 border border-1" style="background-color: lightgray;">
+                        <span class="input-group-text border border-0" style="background-color: lightgray;"><i class="bi bi-calendar4-week"></i></span>
+                        <input type="text" name="fname" placeholder="Check in" style="background-color: lightgray;" class="form-control  border border-0" *required/>
+                    </div>
+                    <div class="input-group mt-3 d-flex w-50 ms-2 border border-1" style="background-color: lightgray;">
+                        <span class="input-group-text border border-0" style="background-color: lightgray;"><i class="bi bi-calendar4-week"></i></span>
+                        <input type="text" name="fname" placeholder="Check Out" style="background-color: lightgray;" class="form-control  border border-0" *required/>
+                    </div>
+                    <div class="input-group mt-3 d-flex w-50 ms-2 border border-1" style="background-color: lightgray;">
+                        <span class="input-group-text border border-0" style="background-color: lightgray;"><i class="bi bi-people" style="background-color: lightgray;"></i></span>
+                        <input type="text" name="fname" placeholder="Travellers" style="background-color: lightgray;" class="form-control  border border-0" *required/>
+                    </div>
+                </div>
+
+                <div class="col-md-3 ms-0">
+                    <button class="btn btn-primary mt-3 p-2" style="background-color: #223D2C;">Find avaliable Cabins</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cabin cards starts hear -->
+    <section id="cards">
+        <div style="margin-left: 15%;">
+                <h3 class="mt-2">Discover our idylic countryside cabins</h3>
+                <hr style=" width: 15%; margin-top: 0; border-top: 4px solid rgb(230, 154, 11);">
+            <div class="col-md-12 mt-3">
+                <p class="h-4">Fully equipped kitchen and bathroom with plenty of walking and cycling routes to explore.
+                <button style="margin-left: 13%; margin-top: 0%; background-color: transparent; border: none; text-decoration: underline;">View all experiences</button></p>
+            </div>
+
+            <div class="col-md-10 ms-1">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div style="width: 100%; height: 240px; background-image: url(images/Image.png);">
+                            <i class="bi bi-heart fs-5 ps-1 mt-1 text-white bg-black" style="float: inline-end; padding-right: 4px; margin-right: 5px;"></i>
+                        </div>
+                        <div class="subcards" style="height: 230px; margin-bottom: 7%;">
+                            <h6 class=" ps-3 pt-3">hampshire - england</h6>
+                            <h5 class="ps-3 pt-1 text-white">Rustic Country retreat
+                                <span class="ms-1">
+                                    <span class="bi bi-currency-pound"><b class="fs-5">210</b><sup>pp</sup></span>
+                                </span>
+                            </h5>
+                            <p class="mt-4 ms-3 text-white">Step outside and take in the stunning<br>views. Our cabin sits on a quiet and <br>secluded property, providing the perfect<br>setting for a peaceful retreat.</p>
+                            <p class="mt-1 ms-3">
+                                <i class="bi bi-star-fill" style="color: #D7FFF1;"></i>
+                                <i class="bi bi-star-fill" style="color: #D7FFF1;"></i>
+                                <i class="bi bi-star-fill" style="color: #D7FFF1;"></i>
+                                <i class="bi bi-star-fill" style="color: #D7FFF1;"></i>
+                                <i class="bi bi-star" style="color: #D7FFF1;"></i>
+                                <span class="ms-3 text-white">82 reviews</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div style="width: 100%; height: 240px; background-image: url(images/Image-1.png);">
+                            <i class="bi bi-heart fs-5 ps-1 mt-1 text-white bg-black" style="float: inline-end; padding-right: 4px; margin-right: 5px;"></i>
+                        </div>                        <div class="subcards" style="height: 230px; margin-bottom: 7%;">
+                            <h6 class=" ps-3 pt-3">hampshire - england</h6>
+                            <h5 class="ps-3 pt-1 text-white">Rustic Country retreat
+                                <span class="ms-1">
+                                    <span class="bi bi-currency-pound"><b class="fs-5">210</b><sup>pp</sup></span>
+                                </span>
+                            </h5>
+                            <p class="mt-4 ms-3 text-white">Step outside and take in the stunning<br>views. Our cabin sits on a quiet and <br>secluded property, providing the perfect<br>setting for a peaceful retreat.</p>
+                            <p class="mt-1 ms-3">
+                                <i class="bi bi-star-fill" style="color: #D7FFF1;"></i>
+                                <i class="bi bi-star-fill" style="color: #D7FFF1;"></i>
+                                <i class="bi bi-star-fill" style="color: #D7FFF1;"></i>
+                                <i class="bi bi-star-fill" style="color: #D7FFF1;"></i>
+                                <i class="bi bi-star" style="color: #D7FFF1;"></i>
+                                <span class="ms-3 text-white">82 reviews</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div style="width: 100%; height: 240px; background-image: url(images/Image-2.png);">
+                            <i class="bi bi-heart fs-5 ps-1 mt-1 text-white bg-black" style="float: inline-end; padding-right: 4px; margin-right: 5px;"></i>
+                        </div>                        <div class="subcards" style="height: 230px; margin-bottom: 7%;">
+                            <h6 class=" ps-3 pt-3">hampshire - england</h6>
+                            <h5 class="ps-3 pt-1 text-white">Rustic Country retreat
+                                <span class="ms-1">
+                                    <span class="bi bi-currency-pound"><b class="fs-5">210</b><sup>pp</sup></span>
+                                </span>
+                            </h5>
+                            <p class="mt-4 ms-3 text-white">Step outside and take in the stunning<br>views. Our cabin sits on a quiet and <br>secluded property, providing the perfect<br>setting for a peaceful retreat.</p>
+                            <p class="mt-1 ms-3">
+                                <i class="bi bi-star-fill" style="color: #D7FFF1;"></i>
+                                <i class="bi bi-star-fill" style="color: #D7FFF1;"></i>
+                                <i class="bi bi-star-fill" style="color: #D7FFF1;"></i>
+                                <i class="bi bi-star-fill" style="color: #D7FFF1;"></i>
+                                <i class="bi bi-star" style="color: #D7FFF1;"></i>
+                                <span class="ms-3 text-white">82 reviews</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inspiration cards starts hear -->
+    <section id="card"style="background-color: #dffcf2;">
+        <div style="margin-left: 15%;">
+                <h3 class="mt-2">Inspiration for your next getaway</h3>
+                <hr style=" width: 10%; margin-top: 0; border-top: 4px solid rgb(230, 154, 11);">
+            <div class="col-md-12 mt-3">
+                <p class="h-4">We've curated some amazing experiences to help you find your next getaway.
+                <button style="margin-left: 20%; margin-top: 0%; background-color: transparent; border: none; text-decoration: underline;">View all experiences</button></p>
+            </div>
+
+            <div class="col-md-10 ms-1">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/card-1.png" style="width: 100%; height: 250px;">
+                        <div class="subcard" style="height: 240px; margin-bottom: 7%;">
+                            <h6 class="ps-3 pt-3">for those who love</h6>
+                            <h5 class="ps-3 pt-1 fs-4 text-white" style="font-family: Georgia, 'Times New Roman', Times, serif; font-weight: bold;">To Explore nature</h5>
+                            <p class="mt-4 ms-3 text-white">Discover some of the most beautiful<br> scenery - form the wonders of<br>Snowdonia to the famous beauty of<br> the Scottish Highlands.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="images/card-2.png" style="width: 100%; height: 250px;">
+                        <div class="subcard" style="height: 240px; margin-bottom: 7%;">
+                            <h6 class="ps-3 pt-3">for those who want</h6>
+                            <h5 class="ps-3 pt-1 fs-4 text-white" style="font-family: Georgia, 'Times New Roman', Times, serif; font-weight: bold;">To Relax, reset & re-set</h5>
+                            <p class="mt-4 ms-3 text-white">Experience mind and body connection <br>through breathing exercises and <br>relaxation with our Yoga inspired get<br>away for you and the family.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="images/card-3.png" style="width: 100%; height: 250px;">
+                        <div class="subcard" style="height: 240px; margin-bottom: 7%;">
+                            <h6 class="ps-3 pt-3">for those who have</h6>
+                            <h5 class="ps-3 pt-1 fs-4 text-white" style="font-family: Georgia, 'Times New Roman', Times, serif; font-weight: bold;">Four-legged friends</h5>
+                            <p class="mt-4 ms-3 text-white">When going on holiday nobody wants<br>to put their dog in a kennel.So, lets<br>keep the family together with our pet<br>friendly cabins.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Purple woman starts hear -->
+        <section id="ms-4" style="background-image: url(images/Purple-woman.png); width: 100%; height: 660px;">
+            <div class="col-md-5 text-white" style="margin-top: 18%; float: inline-end;">
+                <div class="ms-5 mt-4">
+                    <h3 style="font-size: 30px; font-family: cursive;">A truly wonderful<br>experience</h3>
+                    <P class="mt-4">Brilliant for anyone looking to get away from the hustle and<br>bustle of city life or detox from their for a few days. I<br> could have stayed another week!</P>
+                    <p class="mt-3">They really have thought about everything here down to the <br>finest details.</p>
+                    <p class="mt-5">
+                        <i class="bi bi-star-fill p-1" style="background-color: #1BB580;"></i>
+                        <i class="bi bi-star-fill p-1" style="background-color: #1BB580;"></i>
+                        <i class="bi bi-star-fill p-1" style="background-color: #1BB580;"></i>
+                        <i class="bi bi-star-fill p-1" style="background-color: #1BB580;"></i>
+                        <i class="bi bi-star-fill p-1" style="background-color: #1BB580;"></i>
+                        <span class="ms-3">01 Jan 2023</span>
+                </div>
+                </p>
+            </div>
+        </section>
+
+        <!-- Get ready to unwind starts hear -->
+        <section class="mt-5" style="margin: auto; margin-bottom: 3%;">
+            <div class="row ms-5">
+                <div class="col-md-4 ms-5">
+                    <h3 class="ms-5" style="color: 22223C;">Get ready to unwind</h3>
+                    <hr style=" width: 25%; margin-left: 14%; border-top: 4px solid orange;">
+                    <p class="ms-5 mt-3">A cabin getaway can be a wonderful way to relax and reconnect with nature. Many cabin rentals are located in beautiful, secluded areas, surrounded by trees and other natural beauty.</p>
+                    <p class="ms-5 mt-3">A cabin getaway can be a wonderful way to escape the hustle and bustle of daily life and reconnect with nature.</p>
+                    <button style="margin-left: 10%; margin-top: 5%; background-color: transparent; border: none; font-weight: bold;">Learn more<span class="ms-2 fs-5">></span></button>
+                </div>
+                <div class="col-md-6 ms-4">
+                    <div class="box" style="background-image: url(images/video.png); width: 100%; height: 375px; border-radius: 10px; box-shadow: 2px 2px 2px 7px rgb(236, 238, 238); opacity: 0.9;">
+                        <img src="images/play-circle.png" style="margin-left: 40%; margin-top: 22%;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- find avaliable cabins starts hear -->
+        <section id="cabins">
+            <div class="" style="background-color: lightcyan; height: 550px;">
+            <div class="cabin-1" style="background-image: url(images/BGimage.jpg);">
+                <h2>Nourish the mind, body,<br>and sprit.</h2>
+                <p>Many people find that the combanation of being in a peaceful natural<br>setting and engaging in activities that nourish the maind, body and spirit<br>leave them feeling rejuvenated and refreshed.</p>
+                <button class="p-2" style="width:200px; margin-left: 8%; margin-top: 27%; border-radius:5px; color: #1F3D3E; background-color: #F4BD4F;">find avaliable cabins</button>
+            </div>
+        </div>
+        </section>
+
+        <!-- faq section starts hear -->
+        <section id="faq" class="mt-5">
+            <h3 style="margin-left: 8%;">Frequently asked questions</h3>
+            <div>
+                <div class="row" style="margin-left: 10%; margin-top: 2%;">
+                    <div class="col-md-4">
+                            <ul>
+                                <span style="color: #44445C;font-weight: bold; font-size: 20px;">1. About Unwind Cabins</span>
+                                <li class="ms-4" style="color: #4A4A4A;">How long have you been in business?</li>
+                                <li class="ms-4" style="color: #4A4A4A;">What did you start this journey?</li>
+                            </ul>
+                        </div>
+                    <div class="col-md-7 ms-5">
+                        <button>About our cabins<i class="bi bi-arrow-right-circle"></i></button>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-left: 10%; margin-top: 2%;">
+                    <div class="col-md-4">
+                            <ul>
+                                <span style="color: #44445C;font-weight: bold; font-size: 20px;">1. Tell me more about cabins</span>
+                                <li class="ms-4" style="color: #4A4A4A;">What do i need to bring?</li>
+                                <li class="ms-4" style="color: #4A4A4A;">How do i get to the cabin?</li>
+                            </ul>
+                        </div>
+                    <div class="col-md-7 ms-5">
+                        <button>Tell me more about cabins<i class="bi bi-arrow-right-circle"></i></button>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-left: 10%; margin-top: 2%;">
+                    <div class="col-md-4">
+                            <ul>
+                                <span style="color: #44445C;font-weight: bold; font-size: 20px;">3. Pets Family & Friends</span>
+                                <li class="ms-4" style="color: #4A4A4A;">Please tell me can i bring my dog</li>
+                                <li class="ms-4" style="color: #4A4A4A;">How many people do you cabins sleep?</li>
+                            </ul>
+                        </div>
+                    <div class="col-md-7 ms-5">
+                        <button>Pets Family & Friends<i class="bi bi-arrow-right-circle"></i></button>
+                    </div>
+                </div>
+
+                <P style="margin-left: 13%;"><span style="font-weight: bold;">Still have a question?</span><br>If you still have questions contact a member of the team on <span><a href="#" style="color: black;">live chat</a></span> and we'd be more than happy to help.</P>
+            </div>
+        </section>
+<!-- footer starts hear -->
+<footer class="bg-black mt-5">
+    <div class="isec" style="background-image: url(images/footer.jpg);">
+        <h2>Escape from endless<br>Zoom calls</h2>
+        <p>Discover the wonders of spending time offline and away from the office<br>with our 3 day weekend getaway cabin retreats.</p>
+        <button>Find the perfect getaway</button>
+    </div>
+
+    <div class="row ms-5 mt-5">
+        <div class="col-md-2 ms-5">
+            <ul>
+                <li class="mb-3"><span style="color: #C5FBD8; font-weight: 600; font-size: 20px;">About us</span></li>
+                <li><a href="#">Our story</a></li>
+                <li><a href="#">Why us?</a></li>
+                <li><a href="#">How it works?</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-2">
+            <ul>
+                <li class="mb-3"><span style="color: #C5FBD8; font-weight: 600; font-size: 20px;">Our cabins</span></li>
+                <li><a href="#">North of London</a></li>
+                <li><a href="#">Golden Hideaway</a></li>
+                <li><a href="#">Oak Treehouse</a></li>
+                <li><a href="#">Acacia Retreat Blue Lagoon</a></li>
+
+                <li style="margin-top: 70px;"><a href="#">South of London</a></li>
+                <li><a href="#">Lavender Retreat</a></li>
+                <li><a href="#">Butterfly Treehouse</a></li>
+                <li><a href="#">Mahogany Hideaway</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-2">
+            <ul>
+                <li class="mb-3"><span style="color: #C5FBD8; font-weight: 600; font-size: 20px;">Get inspired</span></li>
+                <li><a href="#" style="color: #82C4B9; font-weight: 500;">Explore nature</a></li>
+                <li><a href="#">Hiking trails</a></li>
+                <li><a href="#">Swimming</a></li>
+                <li><a href="#">Fishing</a></li>
+                <li><a href="#">Boating</a></li>
+                <li><a href="#">Cycling</a></li>
+
+                <li style="margin-top: 45px;"><a href="#"style="color: #82C4B9; font-weight: 500;">Rest, relax and re-set</a></li>
+                <li><a href="#">Spa treatments</a></li>
+                <li><a href="#">Hot tubs</a></li>
+                <li><a href="#">Nature Trails</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-2">
+            <ul>
+                <li class="mb-4"><br></li>
+                <li><a href="#" style="color: #82C4B9; font-weight: 500;">Great food and drink</a></li>
+                <li><a href="#">Pubs</a></li>
+                <li><a href="#">Resturants</a></li>
+                <li><a href="#">Food markets</a></li>
+                <li><a href="#">Picnics</a></li>
+
+                <li style="margin-top: 70px;"><a href="#">For you and yours</a></li>
+                <li><a href="#">Solo or a couple</a></li>
+                <li><a href="#">Pet friendly</a></li>
+                <li><a href="#">Accessible cabins</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-2">
+                <ul>
+                    <li class="mb-3"><span style="color: #C5FBD8; font-weight: 600; font-size: 20px;">Support</span></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Complaints Policy</a></li>
+                </ul>
+        </div>
+    </div>
+
+    <div class="row ms-5 mt-5">
+        <p class="ms-5"><span style="color: #82C4B9; font-size: 20px; font-weight: 600;">Sign up to our Newsletter</span></p>
+
+        <div class="col-md-4 ms-5">
+            <p><span style="color:  #C1C7CD; font-size: 14px;">For a weekly curated collection of 3 things you can watch, read or listen to switch off from the busy everyday.</span></p>
+        </div>
+
+        <div class="col-md-6" style="margin-left: 10%;">
+            <input value="" placeholder="james@thegainpeach.com" class="ms-5 p-2" style="width:250px; border-radius:5px;">
+            <button class="ms-1 p-2" style="width:160px; border-radius:5px; color: #1F3D3E; background-color: #F4BD4F;">Join the mailing list</button>
+        </div>
+    </div>
+
+    <hr style=" width: 80%; margin-left: 8%; border-top: 3px solid #8FDDDF;">
+
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <h4>Unwind<span style="color: #C5FBD8;">Cabins</span></h4>
+        </div>
+
+        <div class="col-md-3 mt-2">
+            <p class="ms-5" style="color: #C1C7CD; font-size: 12px;">© 2023 UnwindCabins</p>
+        </div>
+
+        <div id="socialmedia" class="col-md-3" >
+            <a href="#"><span class="bi bi-linkedin fs-5 ms-3"><span></a>
+            <a href="#"><span class="bi bi-youtube fs-5 ms-3"></span></a>
+            <a href="#"><span class="bi bi-facebook fs-5 ms-3"><span></a>
+            <a href="#"><span class="bi bi-instagram fs-5 ms-3"></span></a>
+            <a href="#"><span class="bi bi-youtube fs-5 ms-3"></span></a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

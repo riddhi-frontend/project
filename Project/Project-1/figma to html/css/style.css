@@ -1,0 +1,192 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/* css for navbar */
+nav h2
+{
+    text-transform: uppercase;
+    color: #166527;
+}
+nav span
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #1A3724;
+}
+nav ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+nav ul li a
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+/* css for header */
+.container-fulid
+{
+    background: linear-gradient(to right,rgb(0, 0, 0), #73717a );
+    z-index: -5;
+    position: relative;
+}
+/* css for search bar */
+.searchbar
+{
+    width: 100%;
+    height: 70px;
+    margin-top: -3%;
+    z-index: 5 !important;
+}
+.search
+{
+    width: 70%;
+    margin: auto;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0px 6px 6px lightslategray;
+}
+/* css for Cabin cards */
+#cards
+{
+    margin-top: 4%;
+}
+/* css for Inspiration cards */
+.subcards
+{
+    background-color: #2B3030;
+}
+.subcards h6
+{
+    text-transform: uppercase;
+    color: #D7FFF1;
+    font-size: 12px;
+}
+.subcards h5
+{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-weight: bolder;
+}
+.subcards p
+{
+    font-size: 14px;
+}
+/* css for cars */
+.subcard
+{
+    background-color: #596363;
+}
+.subcard h6
+{
+    text-transform: uppercase;
+    color: #D7FFF1;
+}
+.subcard p
+{
+    font-size: 16px;
+}
+/* css for find avaliable cabins */
+.cabin-1
+{
+    margin: auto;
+    margin-top: 4%;
+    margin-left: 7%;
+    height: 450px;
+    width: 86%;
+    position: absolute;
+}
+.cabin-1 h2
+{
+    position: absolute;
+    font-size: 34px;
+    color: white;
+    margin-top: 10%;
+    margin-left: 8%;
+}
+.cabin-1 p
+{
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    margin-top: 19%;
+    margin-left: 8%;
+}
+/* css for faq */
+#faq button
+{
+    background-color: #F5B963;
+    border: none;
+    width: 400px;
+    text-align: left;
+    padding: 15px;
+    border-radius: 8px;
+}
+.bi-arrow-right-circle
+{
+    color: #73572E;
+    font-weight: bolder;
+    float: inline-end;
+    font-size: 20px;
+}
+/* css for footer */
+.isec
+{
+    height: 700px;
+}
+.isec h2
+{
+    color: white;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 15%;
+}
+.isec p
+{
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 33%;
+    margin-left: 15%;
+}
+.isec button
+{
+    background-color: #D4EEEC;
+    color: #173333;
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 15%;
+    border-radius: 5px;
+    padding: 10px;
+}
+footer ul li
+{
+    list-style-type: none;
+    list-style: none;
+}
+footer ul li a
+{
+    text-decoration: none;
+    color: #C1C7CD;
+}
+footer h4
+{
+    margin-left: 40%;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#socialmedia a span
+{
+    color: #C1C7CD;
+}
