@@ -26,10 +26,51 @@
                 <li class="ms-4"><a href="#">Gift a stay</a></li>
                 <li class="ms-4"><a href="#">About us</a></li>
             </ul>
-            <button class="ms-3 mt-1 mb-1" style="width: 45px; background-color: lightcyan; border-radius: 50%; border: 1px solid black; "><i class="bi bi-person-circle fs-4"></i></button>
+            <button  data-bs-toggle="modal" data-bs-target="#account" type="button" class="ms-3 mt-1 mb-1" style="width: 45px; background-color: lightcyan; border-radius: 50%; border: 1px solid black; "><i class="bi bi-person-circle fs-4"></i></button>
+
         </div>
     </nav>
+    <!-- create an account modal -->
+    <div class="modal fade" role="dialog" id="account">
+        <div class="modal-dialog" style="min-width:55%; margin-top: 5%;">
+            <div class="modal-content p-0">
+        <!-- create account form -->
+            <div class="row">
+                <div class="col-md-6 p-5 bg-hide">
+                    <ul class="footer-links">
+                        <a href=""><img src="https://cdn.dribbble.com/users/500242/screenshots/3672858/bh-advisor-dribbble.gif" style="height: 450px;" class="img-fluid"></a>
+                    </ul>
+                </div>
 
+                <div class="col-md-6 p-5">
+                    <h3>Create Account <button type="button" class="btn btn-sm border border-0 bg-light text-danger fs-3 ms-3" data-bs-dismiss="modal">&times;</button></h3>
+                    <hr class="border border-1 border-dark w-50">
+                    <form>
+                        <div class="form-group mt-2" id="name">
+                            <input type="text" placeholder="Name *" class="form-control" required>
+                        </div>
+                        <div class="form-group mt-2">
+                            <input type="text" placeholder="Email *" class="form-control" required>
+                        </div>
+                        <div class="form-group mt-2">
+                            <input type="password" placeholder="Password *" class="form-control" required>
+                        </div>
+                        <div class="form-group mt-2">
+                            <input type="text" placeholder="Phone *" class="form-control" required>
+                        </div>
+                        <div class="form-group mt-2">
+                            <textarea placeholder="Address *" class="form-control" required></textarea>
+                        </div><br>
+                        <div class="form-group mt-2">
+                            <input type="submit" value="SignUp"  class="btn btn-sm btn-dark text-white">
+                            <input type="reset" value="Reset"  class="btn btn-sm btn-danger ms-2 text-white">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            </div>
+    </div>
+    </div>
 <!-- header starts hear -->
 <header>
     <div class="container-fulid">
@@ -432,5 +473,7 @@
         </div>
     </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
