@@ -1,0 +1,906 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+:root
+{
+  --bg: whitesmoke;
+  --text: #fff;
+}
+/*Navbar css */
+.navbar
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #000;
+}
+.logo
+{
+  margin-left: 30px;
+}
+.logolink
+{
+  text-decoration: none !important;
+}
+.logo h1
+{
+  color: var(--text);
+}
+.multicolor-letter
+{
+    background-image: linear-gradient(45deg, rgb(15, 76, 86), rgb(61, 171, 147), rgb(59, 151, 216), green, rgb(58, 58, 212), rgb(158, 89, 208), violet);
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+.nav-links
+{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  color: var(--text);
+}
+.nav-links li a
+{
+  text-decoration: none;
+  font-weight: bold;
+}
+.icon
+{
+  margin-left: 30px;
+  font-size: 30px;
+  color: var(--text);
+  cursor: pointer;
+}
+/* navbarcss end */
+/* lending page css start */
+.landing-page {
+  background-image: url('https://th.bing.com/th/id/OIF.eC7vAC4nfqvnFtGQGMiZ5g?rs=1&pid=ImgDetMain');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.overlay
+{
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content
+{
+  text-align: center;
+  color: white;
+}
+.content h1
+{
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.buttons
+{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.shop-button
+{
+  padding: 20px 20px;
+  border-radius: 5px;
+  border: 0.5px solid #fff;
+  background-color: #515A5C;
+  opacity: 0.7;
+  margin-top: 3%;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+}
+.shop-button.new span
+{
+  color: orange;
+  font-size: 40px;
+}
+.shop-button.used span
+{
+  font-size: 40px;
+  color: magenta;
+}
+.shop-button.electric span 
+{
+  font-size: 40px;
+  color: cyan;
+}
+.shop-button:hover
+{
+  background-color: #9cbdc5;
+  opacity: 0.8;
+}
+/* lending page css end */
+/* Footer css */
+.footer
+{
+  background-color: #000;
+  color: chartreuse;
+  padding: 20px;
+  padding-bottom: 0px !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.social-media 
+{
+  list-style: none;
+  display: inline-flex;
+  padding: 0;
+  margin-left: 40%;
+}
+.social-media  li
+{
+  margin-bottom: 5px;
+  text-align: center;
+  color: #fff;
+}
+.social-media  li a
+{
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+}
+.social-media  li a:hover
+{
+  color: chartreuse;
+}
+.footer-bottom
+{
+  flex: 1 100%;
+  margin: 10px;
+  border-top: 1px solid #515A5C;
+  font-size: 10px;
+  padding-top: 8px;
+  text-align: center;
+}
+.footer h6
+{
+  font-size: 10px;
+  text-align: center;
+}
+/* footer css end */
+/* featurecard css start */
+.feature-container
+{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: var(--bg);
+}
+.feature-card
+{
+  text-align: center;
+  padding: 10px;
+}
+.ficon
+{
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #000;
+}
+.title
+{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.subtitle
+{
+  font-size: 1rem;
+  color: gray;
+}
+/* featurecard css end */
+/* whttruecae css start */
+.why-truecar-container
+{
+  text-align: center;
+  padding: 40px;
+  background-color: #000;
+  color: #fff;
+}
+.why-truecar-cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.why-truecar-card {
+  text-align: center;
+  padding: 20px;
+  max-width: 300px;
+}
+.why-truecar-icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: chartreuse;
+}
+.why-truecar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.why-truecar-subtitle {
+  font-size: 1rem;
+  color: #ccc;
+}
+.why-truecar-sign-up-button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 24px;
+  padding: 10px 40px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.why-truecar-sign-up-button:hover {
+  background-color: #ccc;
+}
+/* whttruecae css end */
+
+/* FeaturedTools css start*/
+.featured-tools-container {
+  text-align: center;
+  padding: 40px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+.featured-tools-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+.featured-tools-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.featured-tools-image {
+  max-width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.featured-tools-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+.featured-tools-button:hover {
+  background-color: #333;
+}
+/* FeaturedTools css end*/
+
+/* HowItWorks css */
+.how-it-works-container {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+.how-it-works-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+.truecar-plus {
+  color: #00a6de;
+}
+.steps-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  padding: 50px;
+  background: #3c3c3c;
+}
+.step-card {
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+}
+.step-number {
+  font-size: 6rem;
+  font-weight: bold;
+  opacity: 0.1;
+  position: absolute;
+  margin-left: -60px;
+  margin-top: -40px;
+}
+.step-card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.step-card p {
+  font-size: 1rem;
+  margin: 0;
+}
+.buy-online-button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px 40px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 24px;
+}
+.buy-online-button:hover {
+  background-color: #ddd;
+}
+/* HowItWorks css end */
+/* TabNavigation css start */
+.tab-navigation {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #ddd;
+}
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.tab.active {
+  border-bottom: 2px solid chartreuse;
+}
+.tab-content {
+  margin-top: 20px;
+}
+.tab-content button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.tab-content button:hover {
+  background-color: #f0f0f0;
+}
+/* TabNavigation css end */
+/* RecommendationBanner css start */
+.recommendation-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: whitesmoke;
+  padding: 20px;
+  margin: 20px 0;
+  margin-top: 0px;
+}
+.banner-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+.banner-image {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+.banner-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-right: 150px;
+}
+.banner-info h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+.banner-info p {
+  margin: 10px 0;
+  color: #666;
+}
+.recommendation-button {
+  padding: 10px 20px;
+  border: 1px solid chartreuse;
+  background-color: transparent;
+  color: chartreuse;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.recommendation-button:hover {
+  background-color: chartreuse;
+  color: #000;
+}
+.recommendation-button span {
+  margin-left: 5px;
+}
+/* RecommendationBanner css end */
+/* ServiceIntro css start */
+.service-intro {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  margin: 20px 0;
+  margin-top: 0px !important;
+}
+.intro-content {
+  flex: 1;
+  padding-right: 20px;
+}
+.intro-banner {
+  flex: 1;
+}
+.intro-banner img {
+  width: 100%;
+}
+.intro-content h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.intro-content p {
+  margin-bottom: 20px;
+  color: #666;
+}
+.intro-content ul {
+  list-style: none;
+  padding: 0;
+}
+.intro-content li {
+  margin: 20px 8px;
+  padding-top: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+  color: chartreuse;
+  text-align: center;
+  display: inline-flex;
+  clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+  background-color: #000;
+  height: 180px;
+  width: 30%;
+}
+/* ServiceIntro css end */
+/* ServiceList css start */
+.service-list {
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px 0;
+}
+.service-list h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.service-card {
+  flex: 1 1 calc(33.333% - 20px);
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+.service-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.service-card p {
+  margin-bottom: 10px;
+  color: #666;
+}
+.service-card .price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.service-card .price span {
+  color: #e74c3c;
+}
+.service-card button {
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.service-card button:hover {
+  background-color: #c0392b;
+}
+/* ServiceList css end */
+/* PromiseSection css start*/
+.promise-section {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+.promise-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.promises {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.promise-card {
+  flex: 1 1 calc(25% - 20px);
+  background-color: #232222;
+  color: rgb(160, 233, 87);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+.promise-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.promise-card p {
+  color: rgb(206, 235, 176);
+}
+/* PromiseSection css end */
+/* ProcessSection css start */
+.process-section {
+  padding: 20px;
+  display: inline-flex;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.pheading {
+  font-size: 32px;
+  margin-left: 50px;
+}
+.process-section ul {
+  list-style: none;
+  padding: 0;
+}
+.process-section li {
+  margin-bottom: 20px;
+}
+.process-section h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.process-section p {
+  color: #666;
+}
+.process-image {
+  display: inline-flex;
+  text-align: center;
+}
+.process-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+/* ProcessSection css end */
+/* FAQSection css start */
+.faq-section {
+  padding: 60px 20px;
+  background-color: #fff;
+  margin: 0px 40px 20px 40px;
+}
+.faq-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.faqs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.faq-card {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.faq-card h3 {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+.faq-card p {
+  margin-top: 10px;
+  color: #666;
+}
+/* FAQSection css start */
+/* CarList css start */
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+.car-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 10px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+.car-item:hover {
+  transform: scale(1.05);
+}
+.car-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.car-details {
+  padding: 15px;
+}
+.car-details h2 {
+  font-size: 1.5em;
+  margin: 0 0 10px;
+}
+.car-details p {
+  margin: 0;
+  color: #555;
+}
+/* CarList css end */
+/* team css start */
+.team {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+.team h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.slick-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-member {
+  margin-left: 100px !important;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+.team-member-wrapper {
+  padding: 0 10px; /* Adjust margin between slides */
+}
+.team-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.team-member h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: #777;
+}
+/* team css end */
+/* Contact css start */
+.contact {
+  padding: 50px 20px;
+  text-align: center;
+  /* background-color: #00a6de; */
+  background: linear-gradient(45deg, rgba(253, 240, 251, 1.0), rgba(251, 214, 227, 1.0), rgba(207, 198, 251, 1.0), rgba(198, 146, 229, 1.0), rgba(247, 227, 251, 1.0), rgba(255, 255, 255, 1.0), rgba(249, 201, 221, 1.0), rgba(211, 224, 251, 1.0), rgba(252, 232, 245, 1.0));
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #000;
+  color: rgb(204, 243, 166);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(251, 253, 248);
+  opacity: 0.8;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+.contact button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #000;
+  background-color: rgb(204, 243, 166);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: rgb(57, 105, 9);
+  color: #fff;
+}
+
+.car-listing-container {
+  padding: 20px;
+}
+
+.filters {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.filters input,
+.filters select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.car-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.car-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.car-item h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.car-item p {
+  margin: 5px 0;
+}
+
+.contact-seller-btn {
+  padding: 10px 20px;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-seller-btn:hover {
+  background-color: #e64a19;
+}
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 5%;
+  left: 25%;
+  width: 50%;
+  height: auto;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.75);   display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  z-index: 1001; /* Ensure it is above the overlay */
+}
+.modal-content h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: rgb(160, 233, 87);
+}
+.modal-content form div {
+  margin-bottom: 15px;
+}
+.modal-content label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: rgb(204, 251, 158);
+}
+.modal-content .closebtn
+{
+  position: absolute;
+  right: 10px;
+  font-size: 24px;
+  background-color: rgb(204, 251, 158) !important;
+  border: none;
+}
+.modal-content input[type="text"],
+.modal-content input[type="email"],
+.modal-content input[type="Number"],
+.modal-content textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(204, 251, 158);
+  color: rgb(204, 251, 158);
+  background-color: #333;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.modal-content button[type="submit"] {
+  background-color: rgb(204, 251, 158);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 35%;
+  transition: background-color 0.3s;
+}
+
+.modal-content button[type="submit"]:hover {
+  background-color: rgb(160, 233, 87);
+}
